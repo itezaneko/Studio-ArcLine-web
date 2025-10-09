@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studio ArcLine | 彩りと線で、物語を描く。</title>
+  <meta name="description" content="Studio ArcLine（スタジオ・アークライン）は、色彩と線で物語を紡ぐアニメーション制作スタジオ。原画・作監から撮影・仕上げまで、感情を動かす映像を制作します。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="top">
+    <div class="logo"><img src="assets/logo.svg" alt="Studio ArcLine ロゴ"></div>
+    <nav class="nav">
+      <a href="#services">業務内容</a>
+      <a href="#works">作品実績</a>
+      <a href="#about">会社概要</a>
+      <a href="#contact" class="cta">お問い合わせ</a>
+    </nav>
+    <button class="nav-toggle">☰</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>彩りと線で、<br>物語を描く。</h1>
+      <p>Studio ArcLineは、アニメーション制作を中心に、創造と技術で世界を繋ぐスタジオです。</p>
+      <a href="#contact" class="btn">お問い合わせはこちら</a>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <h2>業務内容</h2>
+    <div class="grid">
+      <div class="card"><h3>原画・作監・二原</h3><p>キャラクターの命を吹き込む繊細な動きと演技。感情表現を最優先に、ディレクションから制作まで対応。</p></div>
+      <div class="card"><h3>動画・仕上げ</h3><p>線の美しさと色彩の調和を追求。明暗・空気感まで緻密に描き出します。</p></div>
+      <div class="card"><h3>撮影・編集</h3><p>光と影を操り、映像として完成させる工程。After Effectsを駆使し、作品に深みを与えます。</p></div>
+      <div class="card"><h3>システム・RPA</h3><p>制作の効率化を支える自動化ツール開発。UiPathやPythonを活用した社内ワークフロー改善。</p></div>
+    </div>
+  </section>
+
+  <section id="works" class="section alt">
+    <h2>制作実績</h2>
+    <div class="works">
+      <figure><img src="assets/sample1.jpg" alt=""><figcaption>TVシリーズ作画・撮影</figcaption></figure>
+      <figure><img src="assets/sample2.jpg" alt=""><figcaption>劇場アニメ原画支援</figcaption></figure>
+      <figure><img src="assets/sample3.jpg" alt=""><figcaption>MV／PV撮影・合成</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>会社概要</h2>
+    <p><strong>社名：</strong>Studio ArcLine（スタジオ・アークライン）</p>
+    <p><strong>所在地：</strong>東京都杉並区上荻2丁目17-3</p>
+    <p><strong>事業内容：</strong>アニメーション制作、映像編集、ローカライズ、RPA開発</p>
+    <p><strong>ミッション：</strong>創造の線を繋ぎ、感動の弧を描く。</p>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>お問い合わせ</h2>
+    <form action="mailto:huyonghao839610690@gmail.com" method="post" enctype="text/plain">
+      <label>お名前<input type="text" name="name" required></label>
+      <label>メール<input type="email" name="email" required></label>
+      <label>メッセージ<textarea name="message" rows="4" required></textarea></label>
+      <button type="submit" class="btn">送信</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Studio ArcLine</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
