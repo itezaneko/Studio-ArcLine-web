@@ -1,71 +1,79 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>メンテナンス中 | Studio ArcLine</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background: linear-gradient(135deg, #a3c9ff, #f0baff, #ffd1dc);
-      background-size: 400% 400%;
-      animation: gradientFlow 10s ease infinite;
-      color: #fff;
-      text-align: center;
-      overflow: hidden;
-    }
-    @keyframes gradientFlow {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 15px;
-      text-shadow: 0 0 12px rgba(255,255,255,0.6);
-      letter-spacing: 1px;
-    }
-    p {
-      font-size: 1.1rem;
-      opacity: 0.9;
-      margin-bottom: 50px;
-      line-height: 1.6;
-    }
-    .loading {
-      width: 60px;
-      height: 60px;
-      border: 5px solid rgba(255,255,255,0.3);
-      border-top: 5px solid #fff;
-      border-radius: 50%;
-      animation: spin 1.5s linear infinite;
-    }
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-    footer {
-      position: absolute;
-      bottom: 20px;
-      font-size: 0.85rem;
-      opacity: 0.8;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studio ArcLine | 彩りと線で、物語を描く。</title>
+  <meta name="description" content="Studio ArcLine（スタジオ・アークライン）は、色彩と線で物語を紡ぐアニメーション制作スタジオ。原画・作監から撮影・仕上げまで、感情を動かす映像を制作します。">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>ただいまメンテナンス中です</h1>
-  <p>ご不便をおかけしますが、サイトはまもなく再開いたします。<br>
-     しばらくお待ちください。</p>
-  <div class="loading"></div>
-  <footer>© 2025 Studio ArcLine</footer>
+  <header class="header" id="top">
+    <div class="logo"><img src="assets/logo.svg" alt="Studio ArcLine ロゴ"></div>
+    <nav class="nav">
+      <a href="#services">業務内容</a>
+      <a href="#works">作品実績</a>
+      <a href="#about">会社概要</a>
+      <a href="#contact" class="cta">お問い合わせ</a>
+    </nav>
+    <button class="nav-toggle">☰</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>彩りと線で、<br>物語を描く。</h1>
+      <p>Studio ArcLineは、アニメーション制作を中心に、創造と技術で世界を繋ぐスタジオです。</p>
+      <a href="#contact" class="btn">お問い合わせはこちら</a>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <h2>業務内容</h2>
+    <div class="grid">
+      <div class="card"><h3>原画</h3><p>1原100cut/月</p>2原50cut/24時間</p></div>
+      <div class="card"><h3>動画・仕上げ</h3><p>動仕3000枚/24時間</p></div>
+      <div class="card"><h3>作監</h3><p>LO作監200cut/月</p>2原作監100cut/月</p></div>
+      <div class="card"><h3>LO撮・コンテ撮</h3><p>LO撮300cut/24時間</p>コンテ撮500cut/24時間</p></div>
+    <strong>※内容、スケジュール要相談</strong>
+    </div>
+  </section>
+
+  <section id="works" class="section alt">
+    <h2>制作実績</h2>
+    <div class="works">
+      <figure><img src="assets/sample1.jpg" alt=""><figcaption>TVシリーズ作画・撮影</figcaption></figure>
+      <figure><img src="assets/sample2.jpg" alt=""><figcaption>劇場アニメ原画支援</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>会社概要</h2>
+    <p><strong>社名：</strong>Studio ArcLine（スタジオ・アークライン）</p>
+    <p><strong>所在地：</strong>東京都杉並区上荻2丁目17-3</p>
+    <p><strong>事業内容：</strong>アニメーション制作、映像編集</p>
+    <p><strong>ミッション：</strong>「描線に、物語を。」</p>Studio ArcLineは、創ることに誠実でありたい。</p>1カット1フレームに魂を込めて、アニメーションの“次の可能性”を切り拓きます。</p>
+    <p>株式会社Studio ArcLineは、アニメーション制作を中心とした映像制作スタジオです。TVアニメ・配信アニメ・プロモーション映像の制作下請けを主力としつつ、デジタル時代に適した柔軟な体制とクリエイター主導の企画力を武器に、将来的なオリジナルIP開発・海外展開を見据えた制作事業を展開しています。
+    <br>社名に込めた“Arc（弧）”と“Line（線）”は、ひとつひとつの描線が物語を紡ぐという意味を込めています。小さな線から、大きな感動へ──視聴者の心に届く作品づくりを目指します。</p>
+    <p><strong>特徴：</strong></p>
+    <p>•少数精鋭 × 分業制による高効率な制作体制</p>
+    <p>•若手クリエイターが中心の柔軟で機動的な組織</p>
+    <p>•海外取引・多言語対応も可能（英語・中国語）</p>
+    <p>•制作工程ごとに明確な納期管理と品質保証を実施</p>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>お問い合わせ</h2>
+    <form action="mailto:nakamura@studio-arcline.jp" method="post" enctype="text/plain">
+      <label>お名前<input type="text" name="name" required></label>
+      <label>メール<input type="email" name="email" required></label>
+      <label>メッセージ<textarea name="message" rows="4" required></textarea></label>
+      <button type="submit" class="btn">送信</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Studio ArcLine</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>

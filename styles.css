@@ -4,19 +4,19 @@ body{font-family:'Hiragino Sans','Noto Sans JP',sans-serif;line-height:1.7;color
 .logo img{height:40px}
 .nav{display:flex;gap:20px}
 .nav a{color:#333;text-decoration:none;font-weight:500;position:relative}
-.nav a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:#ff7b7b;transition:width .3s}
+.nav a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:#00b3ff;transition:width .3s}
 .nav a:hover::after{width:100%}
 .nav-toggle{display:none;background:none;border:none;font-size:24px}
-.hero{display:flex;align-items:center;justify-content:center;text-align:center;min-height:80vh;color:#fff;background:linear-gradient(135deg,#ffb6b9,#fae3d9,#bbded6,#8ac6d1);background-size:300% 300%;animation:gradientMove 12s ease infinite}
+.hero{display:flex;align-items:center;justify-content:center;text-align:center;min-height:80vh;color:#fff;background:linear-gradient(135deg,#ffffff,#00b3ff,#00e6ff,#ffffff);background-size:300% 300%;animation:gradientMove 12s ease infinite}
 @keyframes gradientMove{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
 .hero-content{max-width:700px;padding:20px;animation:fadeIn 2s ease}
 @keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 h1{font-size:clamp(28px,6vw,56px);margin-bottom:12px;text-shadow:1px 1px 3px rgba(0,0,0,0.3)}
 p{font-size:clamp(16px,2vw,20px)}
-.btn{display:inline-block;margin-top:20px;padding:12px 28px;border-radius:999px;background:linear-gradient(45deg,#ff8a8a,#ffd37f);color:#fff;font-weight:bold;transition:transform .2s}
+.btn{display:inline-block;margin-top:20px;padding:12px 28px;border-radius:999px;background:linear-gradient(45deg,#00b3ff,#82d8ed);color:#fff;font-weight:bold;transition:transform .2s}
 .btn:hover{transform:scale(1.05)}
 .section{padding:64px 24px;max-width:1100px;margin:auto}
-.section h2{text-align:center;margin-bottom:32px;font-size:clamp(22px,3vw,32px);background:linear-gradient(45deg,#f78ca0,#f9748f,#fd868c,#fe9a8b);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.section h2{text-align:center;margin-bottom:32px;font-size:clamp(22px,3vw,32px);background:linear-gradient(45deg,#00b3ff,#82d8ed);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
 .card{background:rgba(255,255,255,0.9);border-radius:12px;padding:20px;box-shadow:0 4px 12px rgba(0,0,0,0.05);transition:transform .3s}
 .card:hover{transform:translateY(-5px)}
