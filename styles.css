@@ -30,3 +30,4 @@ input,textarea{width:100%;padding:12px;border-radius:8px;border:1px solid #ccc;f
 button.btn{border:none;cursor:pointer}
 .footer{text-align:center;padding:32px 0;color:#777;font-size:14px}
 @media(max-width:720px){.nav{display:none}.nav-toggle{display:block}.hero{min-height:70vh}}
+.twitter-area {margin-top: 20px}
